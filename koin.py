@@ -232,7 +232,6 @@ def main():
         if frame_count % 200 == 0:
             time.time_subtract() 
         clock.tick(8000)
-
         pg.display.flip()
 
 if __name__ == "__main__":
